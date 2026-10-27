@@ -1,0 +1,1492 @@
+{
+ "license": "CC BY 4.0",
+ "attribution": "AI study prompts by Black Label Tec (newaionline.com)",
+ "count": 81,
+ "records": [
+  {
+   "field": "Medical school",
+   "slug": "ai-for-medical-school",
+   "kind": "field",
+   "title": "AI for medical school",
+   "studyAreas": "USMLE Step 1 and Step 2 CK",
+   "topics": "physiology, pathology and clinical reasoning",
+   "method": "Build a mechanism-first explanation before practising clinical vignettes. Compare your answer with the lecture and an approved reference.",
+   "prompt": "Compare obstructive and restrictive lung disease using this lecture. Ask one question at a time, then explain what I missed.",
+   "note": {
+    "heading": "What medical school study asks of you",
+    "text": "Medical school rewards linking a finding to its mechanism: why a lesion causes a sign, why a drug causes a side effect. Lists of buzzwords fall apart when a vignette changes one detail. Use Ace to make you explain the chain out loud, then ask it to change the age, a lab value or the timeline and predict what moves."
+   },
+   "question": {
+    "q": "How do I stop memorizing buzzwords without understanding them?",
+    "a": "Ask for the mechanism behind each association before you accept it, then test it on a changed case. If you cannot say why a finding appears, mark it and return to your lecture or an approved reference."
+   },
+   "guide": "https://newaionline.com/ai-for-medical-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Medical school",
+   "slug": "ai-for-usmle-step-1",
+   "kind": "subject",
+   "title": "USMLE Step 1 AI tutor",
+   "focus": "mechanisms and basic science",
+   "method": "Start with the physiological mechanism, predict its effect and then test it in a new vignette.",
+   "prompt": "Explain how a change in preload affects stroke volume. Ask me to predict the direction before explaining the mechanism.",
+   "note": {
+    "heading": "Where Step 1 practice usually goes wrong",
+    "text": "The common miss is recognizing a pattern without the mechanism behind it, so a vignette that changes one detail breaks the answer. For every association, ask why: which receptor, enzyme or pathway explains it. Ask Ace to change one variable and predict the result, then confirm with your lecture or an approved reference."
+   },
+   "question": {
+    "q": "Can Ace give me official Step 1 questions?",
+    "a": "No. Ace writes original practice from your own material. It is not affiliated with the USMLE or any question bank, and its explanations should be checked against approved references."
+   },
+   "guide": "https://newaionline.com/ai-for-usmle-step-1?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Medical school",
+   "slug": "ai-for-usmle-step-2-ck",
+   "kind": "subject",
+   "title": "USMLE Step 2 CK AI tutor",
+   "focus": "clinical vignette reasoning",
+   "method": "Separate the presentation, discriminating finding and teaching conclusion. Use course references to verify the rationale.",
+   "prompt": "Give me an original practice vignette on this clerkship topic. Ask for the key finding and my reasoning before showing the teaching answer.",
+   "note": {
+    "heading": "Where Step 2 CK practice usually goes wrong",
+    "text": "Step 2 CK style questions turn on the next best step, not just the diagnosis. Answers go wrong when the timing, stability or setting in the stem is skipped. Read for those first. Ask Ace to give you a vignette from your notes, commit to a next step and explain why the alternatives come later or not at all."
+   },
+   "question": {
+    "q": "How do I practise next-best-step questions?",
+    "a": "Decide the diagnosis, then whether the patient is stable, then the single next action, and say all three out loud. Ask Ace to challenge the order and check management against current, approved references."
+   },
+   "guide": "https://newaionline.com/ai-for-usmle-step-2-ck?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Law school",
+   "slug": "ai-for-law-school",
+   "kind": "field",
+   "title": "AI for law school",
+   "studyAreas": "bar exam, UBE and MPRE",
+   "topics": "case briefs, doctrine and issue spotting",
+   "method": "Brief the assigned opinion before trying a fresh hypothetical. Apply the governing rule to both sides and verify citations against the original authority.",
+   "prompt": "Using this assigned case, separate the facts, issue, holding and reasoning. Give me a new hypothetical that changes one material fact.",
+   "note": {
+    "heading": "What law school study asks of you",
+    "text": "Law school tests whether you can find the rule in an opinion and apply it to facts you have not seen. Reading for the holding, separating dicta and arguing both sides matter more than summaries. Use Ace to question your brief and to build hypotheticals that change one fact, then check every rule against the casebook."
+   },
+   "question": {
+    "q": "Can AI write my case briefs for me?",
+    "a": "It can check yours. Brief the case yourself first, then ask Ace to compare your issue, holding and reasoning with the opinion on screen. Never rely on an AI citation without reading the source; AI can invent or misstate authority."
+   },
+   "guide": "https://newaionline.com/ai-for-law-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Law school",
+   "slug": "ai-for-law-case-briefs",
+   "kind": "subject",
+   "title": "AI for law case briefs",
+   "focus": "facts, issues, holdings and legal reasoning",
+   "method": "Read the opinion first, distinguish holding from dicta and check every quotation against the original.",
+   "prompt": "Brief this assigned opinion using only the text I provide. Separate the holding from dicta and quote the passage supporting each point.",
+   "note": {
+    "heading": "Where case briefs usually go wrong",
+    "text": "Briefs go wrong by copying the court’s summary instead of isolating the legally relevant facts, or by stating the holding too broadly. Write the issue as a question the court answered, the holding as its narrow answer and the reasoning as the steps between. Ask Ace to compare your brief with the opinion on screen."
+   },
+   "question": {
+    "q": "How long should a case brief be?",
+    "a": "Short enough to use in class, often a few lines per part. Ask Ace which facts you could cut without changing the issue. If a fact does not affect the outcome, it may not belong."
+   },
+   "guide": "https://newaionline.com/ai-for-law-case-briefs?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Law school",
+   "slug": "ai-for-bar-exam",
+   "kind": "subject",
+   "title": "Bar exam AI study tutor",
+   "focus": "rule recall and essay issue spotting",
+   "method": "State the rule from memory, apply facts on both sides and revise the weak part of your answer.",
+   "prompt": "Give me an original contracts hypothetical. Let me identify the issues and state the rules before grading my analysis.",
+   "note": {
+    "heading": "Where bar exam practice usually goes wrong",
+    "text": "Essay answers lose points by missing issues or stating rules vaguely. Recall alone is not enough: you need a rule statement precise enough to apply. Practise writing the rule from memory, then applying it to each fact. Ask Ace for a fact pattern from your outline and have it list the issues you did not raise."
+   },
+   "question": {
+    "q": "Can AI grade my bar essays?",
+    "a": "It can give feedback on structure and missed issues, but it is not a grader and can misstate law. Compare its comments with your outline, model answers from your program and the governing rules."
+   },
+   "guide": "https://newaionline.com/ai-for-bar-exam?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Dental school",
+   "slug": "ai-for-dental-school",
+   "kind": "field",
+   "title": "AI for dental school",
+   "studyAreas": "INBDE",
+   "topics": "oral anatomy, pathology and dental cases",
+   "method": "Connect anatomy to a case, explain your reasoning and review the source before turning difficult distinctions into flashcards.",
+   "prompt": "Quiz me on the cranial nerves in this dental anatomy chapter. Ask how each finding changes the case.",
+   "note": {
+    "heading": "What dental school study asks of you",
+    "text": "Dental school joins detailed anatomy to clinical decisions: a tooth surface, a nerve or a lesion matters because of what it changes in the case. Practise naming the structure, then explaining its clinical consequence. Ace can quiz you from an anatomy chapter on screen and ask how each finding would change your next step."
+   },
+   "question": {
+    "q": "How should I study dental anatomy with AI?",
+    "a": "Use a labelled diagram from your course, cover the labels and ask Ace to quiz you one structure at a time. After each answer, ask why the structure matters clinically, then confirm against the source diagram."
+   },
+   "guide": "https://newaionline.com/ai-for-dental-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Dental school",
+   "slug": "ai-for-inbde",
+   "kind": "subject",
+   "title": "INBDE AI study tutor",
+   "focus": "integrated dental reasoning",
+   "method": "Link a foundational concept to a finding, explain the connection and review it in your dental course source.",
+   "prompt": "Create an original dental teaching case from this course topic. Ask me to connect the relevant basic science with the findings.",
+   "note": {
+    "heading": "Where INBDE practice usually goes wrong",
+    "text": "Integrated questions mix basic science into a clinical case, so studying subjects in isolation leaves gaps. When you review a case, name the science underneath each finding: anatomy, pathology or pharmacology. Ask Ace to turn a chapter into an integrated case and to ask which basic science explains each clinical step."
+   },
+   "question": {
+    "q": "How do I study for integrated questions?",
+    "a": "Take one clinical case and list the basic science behind each decision. Ask Ace to quiz you across those links and check each point against your course sources."
+   },
+   "guide": "https://newaionline.com/ai-for-inbde?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Dental school",
+   "slug": "ai-for-dental-anatomy",
+   "kind": "subject",
+   "title": "Dental anatomy AI tutor",
+   "focus": "tooth morphology and oral anatomy",
+   "method": "Sketch or label the structure before answering; use the source diagram to check your distinction.",
+   "prompt": "Quiz me on tooth morphology from these notes. Ask me to distinguish two similar features and explain their significance.",
+   "note": {
+    "heading": "Where dental anatomy study usually goes wrong",
+    "text": "Similar teeth and surfaces blur when you memorize descriptions without comparing them. Study in pairs: two teeth side by side, the features that separate them and how you would tell them apart on a model or image. Ask Ace to quiz you on the distinguishing feature, then check it on your course diagram."
+   },
+   "question": {
+    "q": "How do I tell similar teeth apart?",
+    "a": "List the features that differ, not the ones they share, and practise identifying each from a diagram. Ask Ace to quiz you on those differences and confirm with your anatomy text."
+   },
+   "guide": "https://newaionline.com/ai-for-dental-anatomy?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Pharmacy school",
+   "slug": "ai-for-pharmacy-school",
+   "kind": "field",
+   "title": "AI for pharmacy school",
+   "studyAreas": "NAPLEX and MPJE",
+   "topics": "pharmacology, therapeutics and calculations",
+   "method": "Separate mechanism, indication and monitoring in your study notes. Work calculations step by step and verify them with course materials.",
+   "prompt": "Compare these drug classes by mechanism and key distinctions. Test my reasoning without giving the answer first.",
+   "note": {
+    "heading": "What pharmacy school study asks of you",
+    "text": "Pharmacy school mixes three kinds of work: drug knowledge, patient-specific therapeutic choices and exact calculations. Each fails differently. Drug facts blur between similar classes, therapeutics needs a reason for every choice and calculations break on units. Ask Ace to keep the three apart, and verify any dose or calculation against your course materials."
+   },
+   "question": {
+    "q": "Can I trust AI with pharmacy calculations?",
+    "a": "Use it to check your method, not to replace it. Work the calculation yourself with units on every line, then ask Ace to review each step. Confirm the final number with your course method and references before relying on it."
+   },
+   "guide": "https://newaionline.com/ai-for-pharmacy-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Pharmacy school",
+   "slug": "ai-for-naplex",
+   "kind": "subject",
+   "title": "NAPLEX AI study tutor",
+   "focus": "pharmacy calculations and therapeutic reasoning",
+   "method": "Write the units at every step, estimate a sensible range and compare the worked solution with the course method.",
+   "prompt": "Make an original calculation exercise from this lesson. Ask for the formula, units and intermediate steps before the result.",
+   "note": {
+    "heading": "Where NAPLEX practice usually goes wrong",
+    "text": "Two failure points dominate: calculations that drop a unit or a conversion, and therapeutic choices made without a patient-specific reason. Write units on every line, and for every drug choice say why it suits this patient. Ask Ace to check one step at a time, and confirm doses against your references."
+   },
+   "question": {
+    "q": "Can AI check my dosing calculations?",
+    "a": "It can review your steps, but always verify the result with your course method and an authoritative reference. Never use an AI-calculated dose for a real patient."
+   },
+   "guide": "https://newaionline.com/ai-for-naplex?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Pharmacy school",
+   "slug": "ai-for-pharmacology",
+   "kind": "subject",
+   "title": "Pharmacology AI tutor",
+   "focus": "drug mechanisms and class comparisons",
+   "method": "Build a mechanism comparison, test it from memory and verify each distinction against the assigned pharmacology source.",
+   "prompt": "Compare the mechanisms of the classes in these notes. Quiz me on the distinction without introducing an unsupported clinical recommendation.",
+   "note": {
+    "heading": "Where pharmacology study usually goes wrong",
+    "text": "Drug facts blur when you learn drugs one at a time. Learn by class: the shared mechanism, then what separates each member. Side effects usually follow from the mechanism, so explain them that way instead of memorizing lists. Ask Ace to compare two classes on screen and test you on the distinctions."
+   },
+   "question": {
+    "q": "What is the fastest way to learn drug classes?",
+    "a": "Start with the mechanism for the class, then learn the exceptions. Ask Ace to quiz you on which drug in a class differs and why, and check against your course references."
+   },
+   "guide": "https://newaionline.com/ai-for-pharmacology?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Veterinary school",
+   "slug": "ai-for-veterinary-school",
+   "kind": "field",
+   "title": "AI for veterinary school",
+   "studyAreas": "NAVLE",
+   "topics": "species differences, veterinary pathology and cases",
+   "method": "Keep species and context explicit. Compare explanations, justify each one and revisit the original teaching case after feedback.",
+   "prompt": "Turn this lecture into a species comparison. Ask which findings change the differential and why.",
+   "note": {
+    "heading": "What veterinary school study asks of you",
+    "text": "Veterinary study multiplies every topic by species. A normal value, a drug or an anatomical landmark in a dog may not hold for a horse or a cow. Build comparisons rather than single facts, and always state the species in your prompt. Ace can turn a lecture into a species table and quiz you on the differences."
+   },
+   "question": {
+    "q": "Why does the species matter so much in AI prompts?",
+    "a": "Because the right answer often changes with it. Name the species, age and context in every question, and check species-specific facts against your teaching material. A general answer may be right for one species and wrong for another."
+   },
+   "guide": "https://newaionline.com/ai-for-veterinary-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Veterinary school",
+   "slug": "ai-for-navle",
+   "kind": "subject",
+   "title": "NAVLE AI study tutor",
+   "focus": "species-specific teaching cases",
+   "method": "Name the species, identify the discriminating evidence and review the teaching conclusion using veterinary course references.",
+   "prompt": "Turn this veterinary lesson into an original practice case. Ask which species-specific detail changes the reasoning.",
+   "note": {
+    "heading": "Where NAVLE practice usually goes wrong",
+    "text": "Cases go wrong when a fact true for one species is applied to another: normal values, drug safety and common conditions all vary. Read the species and the setting first. Ask Ace to give you a teaching case from your notes, then change only the species and ask what changes in your answer."
+   },
+   "question": {
+    "q": "How do I avoid species mix-ups?",
+    "a": "State the species before answering, and keep comparison tables for normal values and drug cautions. Ask Ace to quiz you on the differences and verify them in your course material."
+   },
+   "guide": "https://newaionline.com/ai-for-navle?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Veterinary school",
+   "slug": "ai-for-veterinary-anatomy",
+   "kind": "subject",
+   "title": "Veterinary anatomy AI tutor",
+   "focus": "comparative anatomy",
+   "method": "Compare named structures across species, then check the comparison against labelled course diagrams.",
+   "prompt": "Quiz me on the anatomical differences between the species in this lecture. Make me explain the functional implication.",
+   "note": {
+    "heading": "Where veterinary anatomy study usually goes wrong",
+    "text": "Comparative anatomy is easy to flatten into one generic animal. Exams and clinic ask what differs between species and why it matters. Build tables of the same structure across species and add a clinical consequence for each. Ask Ace to quiz you across species from your lecture and check each answer with your atlas."
+   },
+   "question": {
+    "q": "Should I learn one species first?",
+    "a": "Many students anchor on one species, then learn the differences from it. Ask Ace to quiz you on those differences rather than on everything again, and follow your program’s emphasis."
+   },
+   "guide": "https://newaionline.com/ai-for-veterinary-anatomy?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Nursing school",
+   "slug": "ai-for-nursing-school",
+   "kind": "field",
+   "title": "AI for nursing school",
+   "studyAreas": "NCLEX-RN and nursing exams",
+   "topics": "clinical judgment, prioritization and care planning",
+   "method": "Practise recognizing cues, prioritizing concerns and explaining your next step. Review rationales rather than memorizing an answer letter.",
+   "prompt": "Give me a practice prioritization question from these notes. Ask who I would assess first and explain the rationale after I answer.",
+   "note": {
+    "heading": "What nursing school study asks of you",
+    "text": "Nursing questions ask what you would do first and why. That means recognizing cues, deciding what is most urgent and choosing a safe next action, not recalling a single fact. Practise explaining your priority out loud. Ace can give you a practice scenario from your notes and ask for your rationale before it shares any teaching points."
+   },
+   "question": {
+    "q": "How can AI help with prioritization questions?",
+    "a": "Ask Ace for a practice scenario based on your notes, answer with your first action and your reason, then compare its feedback with your course framework. The value is in explaining the rationale, not in collecting answer letters."
+   },
+   "guide": "https://newaionline.com/ai-for-nursing-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Nursing school",
+   "slug": "ai-for-nclex",
+   "kind": "subject",
+   "title": "NCLEX AI study help",
+   "focus": "nursing prioritization and clinical judgment",
+   "method": "Identify cues, rank concerns and justify a response. Compare the rationale with the course framework.",
+   "prompt": "Write an original prioritization exercise from this nursing topic. Ask which cue matters most and why before explaining the answer.",
+   "note": {
+    "heading": "Where NCLEX practice usually goes wrong",
+    "text": "Prioritization answers often go wrong by choosing a correct action that is not the first action. Look for the cue that signals the most immediate risk and the safest next step. Practise saying who you would assess first and why. Ask Ace for scenarios from your notes and have it question your rationale before revealing teaching points."
+   },
+   "question": {
+    "q": "Does Ace use real NCLEX questions?",
+    "a": "No. Ace writes original practice from your material and has no affiliation with the NCLEX or its owners. Check rationales against your course frameworks and approved review resources."
+   },
+   "guide": "https://newaionline.com/ai-for-nclex?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Nursing school",
+   "slug": "ai-for-nursing-care-plans",
+   "kind": "subject",
+   "title": "AI for nursing care plan study",
+   "focus": "educational care-plan reasoning",
+   "method": "Use a fictional or de-identified course case, separate observations from assumptions and make the evaluation criteria specific.",
+   "prompt": "Use this fictional teaching case to help me connect assessment cues, a nursing goal and how the goal would be evaluated.",
+   "note": {
+    "heading": "Where care-plan practice usually goes wrong",
+    "text": "Care plans go wrong when interventions do not connect to the assessment data or the stated goal. Each intervention should trace back to a cue and forward to a measurable outcome. Practise on fictional cases from your course. Ask Ace to check whether each intervention has a reason and a way to evaluate it."
+   },
+   "question": {
+    "q": "Can AI write a care plan for me?",
+    "a": "For learning, write it yourself and ask Ace to check the links between data, diagnosis, interventions and outcomes. Follow your program’s format, and never enter real patient information."
+   },
+   "guide": "https://newaionline.com/ai-for-nursing-care-plans?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Physician assistant school",
+   "slug": "ai-for-physician-assistant-school",
+   "kind": "field",
+   "title": "AI for physician assistant school",
+   "studyAreas": "PANCE and rotation exams",
+   "topics": "history taking, differentials and clinical cases",
+   "method": "Start with a concise presentation, identify discriminating findings and explain what supports each possibility using your course sources.",
+   "prompt": "Use this rotation topic for a clinical vignette. Let me explain the differential before showing teaching points.",
+   "note": {
+    "heading": "What physician assistant study asks of you",
+    "text": "PA training moves quickly across specialties, so the core skill is an organized approach: a focused history, a short differential and the finding that separates the options. Rotations add case presentations. Use Ace to rehearse a concise presentation and to push you to name the one finding that changes your leading diagnosis."
+   },
+   "question": {
+    "q": "How do I practise case presentations alone?",
+    "a": "Present a de-identified teaching case out loud to Ace in a fixed order, then ask which details were missing or out of order. Keep presentations short and repeat with a new case rather than polishing one."
+   },
+   "guide": "https://newaionline.com/ai-for-physician-assistant-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Physician assistant school",
+   "slug": "ai-for-pance",
+   "kind": "subject",
+   "title": "PANCE AI study tutor",
+   "focus": "physician assistant exam reasoning",
+   "method": "Present a concise answer, justify the important evidence and review why each alternative fits less well.",
+   "prompt": "Ask an original practice question on this PA course topic. Let me explain why I rejected the alternatives.",
+   "note": {
+    "heading": "Where PANCE practice usually goes wrong",
+    "text": "Broad exams invite shallow review. The common miss is stopping at the likely diagnosis without the finding that rules out the close alternative. Practise naming the discriminating finding for each pair of look-alike conditions. Ask Ace to quiz you on those pairs from your notes and confirm answers with your course references."
+   },
+   "question": {
+    "q": "How do I cover so many topics?",
+    "a": "Prioritize by your program’s blueprint and your weak areas. Short, mixed quizzes from your own notes help; ask Ace for a few questions per topic and track what you miss."
+   },
+   "guide": "https://newaionline.com/ai-for-pance?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Physician assistant school",
+   "slug": "ai-for-pa-rotations",
+   "kind": "subject",
+   "title": "AI for PA clinical rotations",
+   "focus": "rotation learning and case presentations",
+   "method": "Organize the presentation around relevant positives and negatives, then identify gaps to discuss with your instructor.",
+   "prompt": "Use this de-identified teaching case to rehearse a one-minute presentation. Ask what information is missing.",
+   "note": {
+    "heading": "Where rotation presentations usually go wrong",
+    "text": "Presentations go wrong by including everything. Preceptors want the pertinent positives and negatives that support your assessment, in a predictable order. Practise trimming. Present a de-identified teaching case out loud to Ace and ask which details you could cut and which missing finding would change the plan."
+   },
+   "question": {
+    "q": "How do I prepare for a new rotation?",
+    "a": "Review the common presentations for that specialty and practise one short case presentation per topic. Ask Ace to quiz you on the key differentials, and follow your preceptor’s preferred format."
+   },
+   "guide": "https://newaionline.com/ai-for-pa-rotations?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Optometry school",
+   "slug": "ai-for-optometry-school",
+   "kind": "field",
+   "title": "AI for optometry school",
+   "studyAreas": "NBEO",
+   "topics": "vision science, optics and ocular cases",
+   "method": "Move between the diagram, optical principle and calculation. Check units and assumptions against your lecture notes.",
+   "prompt": "Quiz me on this optics lesson. Make me explain the sign convention and calculation steps before revealing the solution.",
+   "note": {
+    "heading": "What optometry school study asks of you",
+    "text": "Optometry pairs clinical reasoning with optics problems where one sign or unit error ruins the answer. Work optics with a sketch and a stated sign convention every time. For ocular cases, connect what you see on examination with the likely cause. Ace can quiz you on each calculation step before showing the worked solution."
+   },
+   "question": {
+    "q": "Why do I keep getting optics problems wrong?",
+    "a": "Usually a sign convention or unit slips partway through. Write the convention at the top, label each distance and ask Ace to check one step at a time instead of the final answer. Confirm the method with your course notes."
+   },
+   "guide": "https://newaionline.com/ai-for-optometry-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Optometry school",
+   "slug": "ai-for-nbeo",
+   "kind": "subject",
+   "title": "NBEO AI study tutor",
+   "focus": "optometry exam concepts",
+   "method": "Explain the principle before applying it, and use the optometry course reference to check the result.",
+   "prompt": "Turn these optometry notes into an original recall question. Ask me to connect the principle to its application.",
+   "note": {
+    "heading": "Where NBEO practice usually goes wrong",
+    "text": "Optometry exams mix clinical recognition with calculation, and each needs a different check. For clinical items, name the finding before the diagnosis. For calculations, state the formula and units first. Ask Ace to quiz you across both from your course notes and to stop you when you skip a step."
+   },
+   "question": {
+    "q": "Is Ace connected to the NBEO?",
+    "a": "No. Ace writes original practice from your course material and is not affiliated with any exam provider. Use your program’s resources to confirm exam scope."
+   },
+   "guide": "https://newaionline.com/ai-for-nbeo?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Optometry school",
+   "slug": "ai-for-optometry-optics",
+   "kind": "subject",
+   "title": "Optometry optics AI tutor",
+   "focus": "geometric optics and sign conventions",
+   "method": "Draw the optical system, state the convention and track units through the calculation.",
+   "prompt": "Work through this optics exercise with me. Ask me to define the sign convention before we calculate.",
+   "note": {
+    "heading": "Where optics problems usually go wrong",
+    "text": "Most optics errors are sign errors. Light direction, object and image distances and lens power each carry a sign, and switching conventions mid-problem ruins the result. Sketch the ray diagram, write the convention and label every distance. Ask Ace to check one step at a time instead of only the final number."
+   },
+   "question": {
+    "q": "What sign convention should I use?",
+    "a": "Use the one your course teaches and write it at the top of every problem. Ask Ace to follow that convention explicitly, and check worked examples from your course."
+   },
+   "guide": "https://newaionline.com/ai-for-optometry-optics?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Physical therapy school",
+   "slug": "ai-for-physical-therapy-school",
+   "kind": "field",
+   "title": "AI for physical therapy school",
+   "studyAreas": "NPTE",
+   "topics": "movement analysis, rehabilitation and examination",
+   "method": "Explain an impairment in terms of function, compare examination findings and review the reasoning behind your answer.",
+   "prompt": "Use this rehabilitation case to quiz my movement analysis. Ask which finding changes my working explanation.",
+   "note": {
+    "heading": "What physical therapy study asks of you",
+    "text": "Physical therapy study links anatomy to movement and function. Knowing a muscle’s attachments is the start; explaining what weakness or restriction does to gait, reaching or a transfer is the point. Practise describing findings in functional terms. Ace can quiz you from a rehabilitation case and ask which finding would change your explanation."
+   },
+   "question": {
+    "q": "How do I connect anatomy to function?",
+    "a": "For each structure, ask what movement it produces, what happens when it is weak or restricted and which daily task shows it. Ask Ace to quiz you in that order and check answers against your course texts."
+   },
+   "guide": "https://newaionline.com/ai-for-physical-therapy-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Physical therapy school",
+   "slug": "ai-for-npte",
+   "kind": "subject",
+   "title": "NPTE AI study tutor",
+   "focus": "physical therapy reasoning",
+   "method": "Separate the movement observation from the hypothesis and review the strongest supporting finding.",
+   "prompt": "Create an original movement-analysis question from this lesson. Ask which finding best supports my explanation.",
+   "note": {
+    "heading": "Where NPTE practice usually goes wrong",
+    "text": "Questions often ask for the most appropriate intervention or the next examination step. Answers go wrong by choosing something reasonable that does not fit the patient’s stage, precautions or goal. Read those first. Ask Ace for a case from your notes and have it question whether your choice fits that stage."
+   },
+   "question": {
+    "q": "Does Ace know current physical therapy guidelines?",
+    "a": "It can explain concepts, but guidelines change and AI can be out of date. Check interventions and precautions against your course materials and current references."
+   },
+   "guide": "https://newaionline.com/ai-for-npte?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Physical therapy school",
+   "slug": "ai-for-physical-therapy-anatomy",
+   "kind": "subject",
+   "title": "Physical therapy anatomy AI tutor",
+   "focus": "functional anatomy",
+   "method": "Connect structure to function and check the explanation with the course anatomy diagram.",
+   "prompt": "Quiz me on the muscles and actions in these notes. Ask how changing the joint position changes the explanation.",
+   "note": {
+    "heading": "Where functional anatomy study usually goes wrong",
+    "text": "Learning origins and insertions without function makes anatomy hard to use. For each muscle, name the movement, the task where you see it and what weakness looks like. Ask Ace to quiz you in that order from your lecture, and to describe a functional problem so you work back to the structure."
+   },
+   "question": {
+    "q": "How do I make anatomy stick?",
+    "a": "Tie each structure to a movement you can perform and a daily task. Ask Ace to quiz you on function as well as names, and review with your course atlas."
+   },
+   "guide": "https://newaionline.com/ai-for-physical-therapy-anatomy?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Occupational therapy school",
+   "slug": "ai-for-occupational-therapy-school",
+   "kind": "field",
+   "title": "AI for occupational therapy school",
+   "studyAreas": "NBCOT",
+   "topics": "occupational performance and activity analysis",
+   "method": "Keep the person, occupation and environment connected. Compare adaptations and support your reasoning with the assigned framework.",
+   "prompt": "Turn this course case into an activity analysis. Ask me to connect the client goal, task demands and environment.",
+   "note": {
+    "heading": "What occupational therapy study asks of you",
+    "text": "Occupational therapy keeps three things in view at once: the person, the activity and the environment. Many study answers fail by fixing one and ignoring the others. Practise activity analysis on ordinary tasks, then adapt one element at a time. Ace can ask you to justify each adaptation against the client goal in your course case."
+   },
+   "question": {
+    "q": "What is a good way to practise activity analysis?",
+    "a": "Pick an everyday task, break it into steps and demands, then ask Ace to change the client or the setting. Explain how your plan changes and check your reasoning against the framework your program uses."
+   },
+   "guide": "https://newaionline.com/ai-for-occupational-therapy-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Occupational therapy school",
+   "slug": "ai-for-nbcot",
+   "kind": "subject",
+   "title": "NBCOT AI study tutor",
+   "focus": "occupational therapy case reasoning",
+   "method": "Describe the goal, examine the activity demands and justify your answer using the assigned OT framework.",
+   "prompt": "Give me an original OT teaching scenario. Ask me to connect the occupational goal with the task demands.",
+   "note": {
+    "heading": "Where NBCOT practice usually goes wrong",
+    "text": "Case questions go wrong when the answer fixes the impairment and forgets the client’s goal or setting. Read for the occupation the client cares about and the context they live in. Ask Ace for a case from your notes and have it ask how your choice serves that goal, then check your framework."
+   },
+   "question": {
+    "q": "Is Ace affiliated with NBCOT?",
+    "a": "No. Ace writes original study practice from your material and has no exam-provider affiliation. Use your program’s resources to confirm exam content."
+   },
+   "guide": "https://newaionline.com/ai-for-nbcot?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Occupational therapy school",
+   "slug": "ai-for-ot-activity-analysis",
+   "kind": "subject",
+   "title": "OT activity analysis AI tutor",
+   "focus": "person, occupation and environment",
+   "method": "Break the activity into observable steps and compare potential adaptations against the stated goal.",
+   "prompt": "Help me analyze this fictional daily activity. Ask about the person, task and environment one at a time.",
+   "note": {
+    "heading": "Where activity analysis usually goes wrong",
+    "text": "Activity analysis goes wrong when it lists steps without the demands each step places on the person. For each step, name the physical, cognitive and environmental demands, then what changes for your client. Ask Ace to change one element, such as the setting, and explain how your adaptation changes."
+   },
+   "question": {
+    "q": "What tasks are good for practice?",
+    "a": "Ordinary ones: making tea, dressing, using a phone. Break the task into steps and demands, then ask Ace to change the client or setting and question your adaptation."
+   },
+   "guide": "https://newaionline.com/ai-for-ot-activity-analysis?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Podiatry school",
+   "slug": "ai-for-podiatry-school",
+   "kind": "field",
+   "title": "AI for podiatry school",
+   "studyAreas": "APMLE",
+   "topics": "lower-limb anatomy, biomechanics and cases",
+   "method": "Trace anatomy into biomechanics, distinguish similar findings and check your explanation against the source diagram.",
+   "prompt": "Ask me to connect this anatomy lesson with a gait finding. Wait for my explanation before giving feedback.",
+   "note": {
+    "heading": "What podiatry school study asks of you",
+    "text": "Podiatry study runs from detailed lower-limb anatomy into biomechanics and gait. A finding at the foot often reflects something higher up the chain, so practise tracing it both ways. Ace can quiz you on an anatomy diagram and then ask how a structural change would show up in the gait cycle."
+   },
+   "question": {
+    "q": "How should I study gait with AI?",
+    "a": "Describe one phase of gait at a time, name the structures doing the work and ask Ace what changes if one is impaired. Compare its answer with your course diagrams rather than accepting a general description."
+   },
+   "guide": "https://newaionline.com/ai-for-podiatry-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Podiatry school",
+   "slug": "ai-for-apmle",
+   "kind": "subject",
+   "title": "APMLE AI study tutor",
+   "focus": "podiatric exam concepts",
+   "method": "Use an anatomical explanation for each answer and compare it with the assigned podiatry reference.",
+   "prompt": "Create a recall drill from this podiatry topic. Ask me to connect each finding with the relevant anatomy.",
+   "note": {
+    "heading": "Where APMLE practice usually goes wrong",
+    "text": "Broad exam review tends to drift toward familiar topics. Track the areas you miss and return to them with focused practice. For lower-limb cases, connect the finding to the structure and the mechanism. Ask Ace to quiz you on your weakest topics from your notes and check answers against your course sources."
+   },
+   "question": {
+    "q": "Is Ace connected to the APMLE?",
+    "a": "No. Ace writes original practice from your course material and is not affiliated with the exam. Confirm exam scope with your program."
+   },
+   "guide": "https://newaionline.com/ai-for-apmle?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Podiatry school",
+   "slug": "ai-for-podiatry-biomechanics",
+   "kind": "subject",
+   "title": "Podiatry biomechanics AI tutor",
+   "focus": "foot mechanics and gait",
+   "method": "Describe the observed pattern before proposing a mechanism, then check it against the source diagram.",
+   "prompt": "Quiz me on this gait diagram. Ask which movement or structure explains the pattern I identify.",
+   "note": {
+    "heading": "Where biomechanics study usually goes wrong",
+    "text": "Biomechanics goes wrong when the foot is studied in isolation. Changes at the foot can come from, or cause, changes at the ankle, knee and hip. Trace a finding up and down the chain. Ask Ace to quiz you on one phase of gait at a time and to ask what compensates when a structure fails."
+   },
+   "question": {
+    "q": "How do I study the gait cycle?",
+    "a": "Learn the phases in order, the structures active in each and the common compensations. Ask Ace to quiz you phase by phase and compare with your course diagrams."
+   },
+   "guide": "https://newaionline.com/ai-for-podiatry-biomechanics?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Chiropractic school",
+   "slug": "ai-for-chiropractic-school",
+   "kind": "field",
+   "title": "AI for chiropractic school",
+   "studyAreas": "NBCE",
+   "topics": "anatomy and musculoskeletal reasoning",
+   "method": "Review anatomy before interpretation. Distinguish what a teaching case establishes from what needs further examination.",
+   "prompt": "Create a recall drill from this spinal anatomy lesson. Ask about landmarks and the reasoning behind each association.",
+   "note": {
+    "heading": "What chiropractic school study asks of you",
+    "text": "Chiropractic study leans heavily on anatomy: spinal landmarks, nerve relationships and musculoskeletal structure. Recall drills help, but exams and clinic ask you to reason from those structures. Ace can run quick recall from a lesson on screen and then ask what each landmark means for examination findings."
+   },
+   "question": {
+    "q": "Is AI useful for anatomy recall drills?",
+    "a": "Yes, for practice. Ask Ace to quiz you from your own lesson, one item at a time, and to say whether you were right. Keep a list of misses and review them with the original material."
+   },
+   "guide": "https://newaionline.com/ai-for-chiropractic-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Chiropractic school",
+   "slug": "ai-for-nbce",
+   "kind": "subject",
+   "title": "NBCE AI study tutor",
+   "focus": "chiropractic course review",
+   "method": "Link recall to reasoning and use the assigned course text to resolve uncertain points.",
+   "prompt": "Ask original review questions from this chiropractic lecture. Require an explanation rather than a one-word answer.",
+   "note": {
+    "heading": "Where NBCE review usually goes wrong",
+    "text": "Review goes wrong when recall stays separate from reasoning. After a recall drill, ask how the structure shows up in examination or imaging. Keep teaching cases distinct from what you would need to confirm in a real examination. Ask Ace to quiz you from your notes and to push from recall into reasoning."
+   },
+   "question": {
+    "q": "Does Ace use real NBCE questions?",
+    "a": "No. Ace writes original practice from your material and has no affiliation with the exam provider. Confirm content with your program’s resources."
+   },
+   "guide": "https://newaionline.com/ai-for-nbce?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Chiropractic school",
+   "slug": "ai-for-spinal-anatomy",
+   "kind": "subject",
+   "title": "Spinal anatomy AI tutor",
+   "focus": "vertebral landmarks and neuroanatomy",
+   "method": "Locate the landmark, explain its relationship to nearby structures and verify with a labelled diagram.",
+   "prompt": "Quiz me on the vertebral landmarks in these notes. Ask what passes through the named structure.",
+   "note": {
+    "heading": "Where spinal anatomy study usually goes wrong",
+    "text": "Regional differences between vertebrae and the relationship of nerves to landmarks are where most errors happen. Compare one vertebra from each region side by side and trace each nerve root to where it exits. Ask Ace to quiz you on distinguishing features and on what a problem at each level would affect."
+   },
+   "question": {
+    "q": "How do I learn the vertebral regions?",
+    "a": "Study what makes each region distinct and practise identifying vertebrae from images. Ask Ace to quiz you on those features and check against your atlas."
+   },
+   "guide": "https://newaionline.com/ai-for-spinal-anatomy?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Public health school",
+   "slug": "ai-for-public-health-school",
+   "kind": "field",
+   "title": "AI for public health school",
+   "studyAreas": "CPH and comprehensive exams",
+   "topics": "epidemiology, biostatistics and population health",
+   "method": "State the population and study design, calculate the measure with units and discuss the limits of the inference.",
+   "prompt": "Ask me to identify the study design, possible bias and measure of association in this epidemiology problem.",
+   "note": {
+    "heading": "What public health study asks of you",
+    "text": "Public health questions often turn on the study design: who was sampled, what was compared and what can be concluded. Many wrong answers come from over-reading a result. Name the design and the population first, then the measure and its limits. Ace can ask you to spot bias and confounding before it explains the problem."
+   },
+   "question": {
+    "q": "How do I avoid over-interpreting study results?",
+    "a": "State the design, the population and the comparison before reading the result. Then ask Ace what the study cannot show. Check definitions and formulas against your course materials."
+   },
+   "guide": "https://newaionline.com/ai-for-public-health-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Public health school",
+   "slug": "ai-for-epidemiology",
+   "kind": "subject",
+   "title": "Epidemiology AI tutor",
+   "focus": "study design and bias",
+   "method": "State the population, exposure and outcome before classifying the design or interpreting an association.",
+   "prompt": "Give me a short study description. Ask me to identify the design and one plausible source of bias.",
+   "note": {
+    "heading": "Where epidemiology problems usually go wrong",
+    "text": "Problems go wrong when the design is misidentified, because the design decides which measure and which conclusions are valid. Name the design first: cohort, case-control, cross-sectional or trial. Then name the likeliest bias. Ask Ace for a problem from your lesson and have it question your design call before you calculate."
+   },
+   "question": {
+    "q": "How do I tell study designs apart?",
+    "a": "Ask how participants were selected and when exposure and outcome were measured. Ask Ace to quiz you with short study descriptions and check definitions in your course text."
+   },
+   "guide": "https://newaionline.com/ai-for-epidemiology?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Public health school",
+   "slug": "ai-for-biostatistics",
+   "kind": "subject",
+   "title": "Biostatistics AI tutor",
+   "focus": "statistical interpretation",
+   "method": "Identify the quantity being estimated, interpret uncertainty and keep association separate from causation.",
+   "prompt": "Use this course example to quiz me on the estimate, uncertainty and what the result does not establish.",
+   "note": {
+    "heading": "Where biostatistics usually goes wrong",
+    "text": "Interpretation errors are more common than arithmetic ones: reading a p-value as the chance the result is true, or treating a confidence interval as a range of individual values. Say in plain words what each number means. Ask Ace to quiz you on interpretation from your lesson, and check definitions in your course text."
+   },
+   "question": {
+    "q": "Can AI do my statistics homework?",
+    "a": "Use it to understand, not to submit. Work problems yourself, then ask Ace to explain what each result means. Follow your course’s policy on AI for graded work."
+   },
+   "guide": "https://newaionline.com/ai-for-biostatistics?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Speech and audiology school",
+   "slug": "ai-for-speech-and-audiology-school",
+   "kind": "field",
+   "title": "AI for speech and audiology school",
+   "studyAreas": "Praxis",
+   "topics": "communication disorders, hearing and language development",
+   "method": "Separate observations from interpretation. Compare similar profiles and return to the course evidence when the distinction is unclear.",
+   "prompt": "Compare the communication profiles in this lesson. Ask which observations support each interpretation.",
+   "note": {
+    "heading": "What speech and audiology study asks of you",
+    "text": "Speech-language pathology and audiology both ask you to separate what you observe from what it means. Similar profiles can have different causes, so practise comparing them side by side. Ace can turn a lesson into a comparison and ask which observation supports each interpretation. Use fictional or de-identified cases only."
+   },
+   "question": {
+    "q": "Can I practise with real client recordings?",
+    "a": "Use fictional or properly de-identified teaching material for AI practice. Ace can help you compare profiles described in your course, but real client information should stay out of study prompts."
+   },
+   "guide": "https://newaionline.com/ai-for-speech-and-audiology-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Speech and audiology school",
+   "slug": "ai-for-speech-pathology",
+   "kind": "subject",
+   "title": "Speech pathology AI tutor",
+   "focus": "language and communication coursework",
+   "method": "Separate observed features from interpretation and compare your answer with the course framework.",
+   "prompt": "Compare the communication profiles in these course notes. Ask which observation supports each distinction.",
+   "note": {
+    "heading": "Where speech pathology study usually goes wrong",
+    "text": "Coursework goes wrong when similar disorders are learned as separate lists instead of compared. Practise contrasting two profiles: what you would observe in each and which observation separates them. Ask Ace to quiz you on those contrasts from your lesson. Use fictional or de-identified examples only."
+   },
+   "question": {
+    "q": "How do I compare similar disorders?",
+    "a": "Put them side by side and list the observations that differ. Ask Ace to describe a fictional case and ask which profile fits, then check with your course material."
+   },
+   "guide": "https://newaionline.com/ai-for-speech-pathology?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Speech and audiology school",
+   "slug": "ai-for-audiology",
+   "kind": "subject",
+   "title": "Audiology AI tutor",
+   "focus": "hearing science coursework",
+   "method": "Read the diagram labels carefully, explain the principle and verify the teaching interpretation.",
+   "prompt": "Quiz me on this hearing-science lesson. Ask me to explain the diagram before answering the practice question.",
+   "note": {
+    "heading": "Where audiology study usually goes wrong",
+    "text": "Hearing science mixes physics, anatomy and test interpretation, and errors come from skipping one. When reading a result, say what the test measures, which part of the system it reflects and what pattern you see. Ask Ace to quiz you on that sequence from your course examples."
+   },
+   "question": {
+    "q": "Can AI help me read test results?",
+    "a": "For study examples, yes: ask Ace to question your interpretation step by step. Check patterns against your course materials, and never use AI to interpret a real patient’s results."
+   },
+   "guide": "https://newaionline.com/ai-for-audiology?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Business school",
+   "slug": "ai-for-business-school",
+   "kind": "field",
+   "title": "AI for business school",
+   "studyAreas": "MBA coursework and GMAT preparation",
+   "topics": "case analysis, strategy and quantitative reasoning",
+   "method": "Define the decision, test assumptions and compare alternatives. Show the calculations behind a recommendation.",
+   "prompt": "Challenge my recommendation for this business case. Ask about an assumption, an alternative and a metric that changes the decision.",
+   "note": {
+    "heading": "What business school study asks of you",
+    "text": "Business school cases reward a clear recommendation that survives questioning. Define the decision, show the numbers behind it and name the assumption most likely to be wrong. Ace can play the skeptical classmate: it challenges your recommendation, asks for an alternative and asks which metric would change your mind."
+   },
+   "question": {
+    "q": "How can AI help with case discussions?",
+    "a": "Give Ace your recommendation and supporting numbers, then ask it to argue against you. Answer out loud, revise the weakest assumption and check the calculations yourself before class."
+   },
+   "guide": "https://newaionline.com/ai-for-business-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Business school",
+   "slug": "ai-for-mba-case-analysis",
+   "kind": "subject",
+   "title": "AI for MBA case analysis",
+   "focus": "business cases and recommendations",
+   "method": "Define the decision and alternatives, test the assumptions and identify a measurable outcome.",
+   "prompt": "Challenge my recommendation for this assigned case. Ask about the assumption most likely to change the decision.",
+   "note": {
+    "heading": "Where case analysis usually goes wrong",
+    "text": "Case write-ups go wrong by summarizing the case instead of deciding. Lead with your recommendation, then the two or three reasons and the numbers behind them, then the main risk. Ask Ace to argue for the strongest alternative so you can test whether your recommendation holds."
+   },
+   "question": {
+    "q": "How do I structure a case answer?",
+    "a": "Decision first, then reasons, evidence and risks. Ask Ace to challenge each reason, and check your numbers yourself before you submit or present."
+   },
+   "guide": "https://newaionline.com/ai-for-mba-case-analysis?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Business school",
+   "slug": "ai-for-gmat-quant",
+   "kind": "subject",
+   "title": "GMAT quantitative AI tutor",
+   "focus": "quantitative problem solving",
+   "method": "State the constraints, solve without skipping assumptions and compare with an independent check.",
+   "prompt": "Give me an original quantitative practice problem. Ask for an efficient solution and a second way to check it.",
+   "note": {
+    "heading": "Where quant practice usually goes wrong",
+    "text": "Quant problems go wrong on setup and on misreading what is asked. Restate the question in your own words, define variables and estimate the size of the answer before solving. Ask Ace for original problems at your level and have it ask how you would check your answer without redoing the work."
+   },
+   "question": {
+    "q": "Does Ace provide official GMAT questions?",
+    "a": "No. Ace writes original practice and is not affiliated with the GMAT or its owners. Use official materials to calibrate difficulty and format."
+   },
+   "guide": "https://newaionline.com/ai-for-gmat-quant?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Graduate school",
+   "slug": "ai-for-graduate-school",
+   "kind": "field",
+   "title": "AI for graduate school",
+   "studyAreas": "qualifying exams and thesis defense",
+   "topics": "research reading, methods and oral examination",
+   "method": "Read the source before summarizing it. Build an argument map, identify limits and rehearse explaining your method out loud.",
+   "prompt": "Ask me to distinguish this paper’s question, method, evidence and limitations. Then challenge one inference.",
+   "note": {
+    "heading": "What graduate school study asks of you",
+    "text": "Graduate study shifts from learning answers to judging evidence: what a paper actually shows, how its method limits the claim and where your own argument is weakest. Oral exams test whether you can say this clearly under questioning. Ace can quiz you on a paper on screen and then challenge one inference at a time."
+   },
+   "question": {
+    "q": "How can I prepare for an oral exam with AI?",
+    "a": "Explain your work out loud and ask Ace to interrupt with one hard question at a time. Note the questions you could not answer and go back to the sources, not to the AI, for the evidence."
+   },
+   "guide": "https://newaionline.com/ai-for-graduate-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Graduate school",
+   "slug": "ai-for-research-paper-reading",
+   "kind": "subject",
+   "title": "AI for reading research papers",
+   "focus": "research methods and critical reading",
+   "method": "Read the methods and limitations before accepting a conclusion, and tie each summary statement to the source.",
+   "prompt": "Separate this paper’s question, method, evidence and limitations. Ask which inference goes beyond the evidence.",
+   "note": {
+    "heading": "Where reading research papers usually goes wrong",
+    "text": "Readers often accept the abstract’s claim without checking whether the method supports it. Read the question, the method and the main figure before the conclusion, then ask what the study cannot show. With the paper on screen, ask Ace to question your summary and point to the section behind each claim."
+   },
+   "question": {
+    "q": "Can AI summarize papers for me?",
+    "a": "It can help, but summaries can miss limits or misstate results. Read the paper yourself, ask Ace to check your summary against the text and cite the paper, not the AI."
+   },
+   "guide": "https://newaionline.com/ai-for-research-paper-reading?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Graduate school",
+   "slug": "ai-for-qualifying-exams",
+   "kind": "subject",
+   "title": "AI for qualifying exam study",
+   "focus": "graduate oral examination",
+   "method": "Explain the core concept aloud, defend assumptions and record the questions you could not answer.",
+   "prompt": "Act as an examiner on this topic list. Ask one conceptual question, then challenge an assumption in my answer.",
+   "note": {
+    "heading": "Where qualifying exam prep usually goes wrong",
+    "text": "Preparation goes wrong when you rehearse what you know instead of what you will be asked. Committees probe the edges: alternative explanations, limitations and foundations. Practise answering out loud under interruption. Ask Ace to question you on your reading list one hard question at a time."
+   },
+   "question": {
+    "q": "How should I practise for an oral exam?",
+    "a": "Explain a topic out loud for a few minutes, then ask Ace to interrupt with a challenging question. Note what you could not answer and return to your sources."
+   },
+   "guide": "https://newaionline.com/ai-for-qualifying-exams?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Social work school",
+   "slug": "ai-for-social-work-school",
+   "kind": "field",
+   "title": "AI for social work school",
+   "studyAreas": "ASWB",
+   "topics": "practice frameworks, ethics and case analysis",
+   "method": "Separate case facts from assumptions. Explain how a framework guides your answer and check the relevant course standard.",
+   "prompt": "Use this fictional course case to quiz me on the practice framework and ethical considerations.",
+   "note": {
+    "heading": "What social work study asks of you",
+    "text": "Social work questions ask you to apply a framework and an ethical standard to a situation, often with more than one reasonable action. Separate the facts given from the assumptions you are adding. Ace can quiz you on a fictional course case and ask which part of the framework or code supports your choice."
+   },
+   "question": {
+    "q": "How do I practise ethics questions?",
+    "a": "Use a fictional case, choose an action and name the standard behind it. Ask Ace to present a competing option and explain why yours is better, then check the relevant standard in your course materials."
+   },
+   "guide": "https://newaionline.com/ai-for-social-work-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Social work school",
+   "slug": "ai-for-aswb",
+   "kind": "subject",
+   "title": "ASWB AI study tutor",
+   "focus": "social work exam reasoning",
+   "method": "Identify case facts, relevant ethical considerations and the reason for your answer using approved course sources.",
+   "prompt": "Use a fictional case to ask an original social work practice question. Let me explain the ethical considerations first.",
+   "note": {
+    "heading": "Where ASWB practice usually goes wrong",
+    "text": "Questions often ask what to do first, and answers go wrong by choosing a good action out of order, such as intervening before assessing. Look for the step the situation requires now. Ask Ace for a fictional scenario from your notes and have it question the order of your actions."
+   },
+   "question": {
+    "q": "Is Ace affiliated with the ASWB?",
+    "a": "No. Ace writes original practice from your material and has no exam-provider affiliation. Check your reasoning against your program’s standards and resources."
+   },
+   "guide": "https://newaionline.com/ai-for-aswb?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Social work school",
+   "slug": "ai-for-social-work-ethics",
+   "kind": "subject",
+   "title": "Social work ethics AI tutor",
+   "focus": "ethical case analysis",
+   "method": "Distinguish known facts from assumptions and check the applicable course standards before drawing a conclusion.",
+   "prompt": "Help me compare the ethical considerations in this fictional course scenario without inventing facts about the person.",
+   "note": {
+    "heading": "Where ethics analysis usually goes wrong",
+    "text": "Ethics answers go wrong when a personal value stands in for the professional standard, or when only one obligation is weighed. Name the competing obligations, the standard behind each and how you would resolve the conflict. Ask Ace to present a fictional dilemma and argue the other side."
+   },
+   "question": {
+    "q": "How do I practise ethical dilemmas?",
+    "a": "Use fictional cases, name each obligation and the standard behind it, then choose and justify. Ask Ace to challenge your choice and check the relevant code in your course."
+   },
+   "guide": "https://newaionline.com/ai-for-social-work-ethics?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Teacher education",
+   "slug": "ai-for-teacher-education",
+   "kind": "field",
+   "title": "AI for teacher education",
+   "studyAreas": "Praxis and teaching exams",
+   "topics": "lesson planning, pedagogy and assessment",
+   "method": "Align the objective, learning activity and assessment. Revise one step at a time and explain the teaching choice behind each revision.",
+   "prompt": "Review this lesson plan against its learning objective. Ask how I would know whether students understood the concept.",
+   "note": {
+    "heading": "What teacher education asks of you",
+    "text": "Teacher education asks whether your objective, activity and assessment line up. A lively activity that does not show the objective was met is a common miss. Ace can review a lesson plan on your screen against its objective and ask how you would know, during the lesson, that students understood."
+   },
+   "question": {
+    "q": "Can AI review my lesson plan?",
+    "a": "Yes, as a second reader. Share the plan on screen, ask Ace to check alignment between objective, activity and assessment, and decide yourself which suggestions fit your students and your program’s requirements."
+   },
+   "guide": "https://newaionline.com/ai-for-teacher-education?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Teacher education",
+   "slug": "ai-for-praxis",
+   "kind": "subject",
+   "title": "Praxis AI study tutor",
+   "focus": "teacher preparation review",
+   "method": "Connect a teaching principle to a concrete classroom example and verify the explanation in course materials.",
+   "prompt": "Create original review questions from this teaching topic. Ask me to explain the classroom reasoning behind the answer.",
+   "note": {
+    "heading": "Where Praxis review usually goes wrong",
+    "text": "Review drifts toward content you already know. Use your test’s content outline to find gaps, then practise those. For pedagogy items, explain why one approach fits the learners described. Ask Ace for original questions from your notes in your weakest areas and track what you miss."
+   },
+   "question": {
+    "q": "Does Ace have official Praxis questions?",
+    "a": "No. Ace writes original practice and is not affiliated with the test provider. Use official materials to understand the format."
+   },
+   "guide": "https://newaionline.com/ai-for-praxis?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Teacher education",
+   "slug": "ai-for-lesson-plan-study",
+   "kind": "subject",
+   "title": "AI for lesson plan study",
+   "focus": "learning objectives and assessment",
+   "method": "Make the objective observable, check the alignment of activities and define evidence of understanding.",
+   "prompt": "Review this draft lesson plan. Ask whether the activity and assessment actually measure the stated objective.",
+   "note": {
+    "heading": "Where lesson plans usually go wrong",
+    "text": "Plans go wrong when the objective names a topic instead of what students will be able to do, which leaves nothing to assess. Write the objective as an observable action, then design the check that shows it. Ask Ace to review a plan on screen and ask how each activity moves students toward that objective."
+   },
+   "question": {
+    "q": "What makes a good learning objective?",
+    "a": "It says what students will do, under what conditions and how you will know. Ask Ace to test your objective against your assessment, and follow your program’s format."
+   },
+   "guide": "https://newaionline.com/ai-for-lesson-plan-study?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Psychology school",
+   "slug": "ai-for-psychology-school",
+   "kind": "field",
+   "title": "AI for psychology school",
+   "studyAreas": "EPPP and counseling exams",
+   "topics": "theory, research methods and case formulation",
+   "method": "Distinguish theory from evidence and case facts from assumptions. Use fictional or de-identified teaching material for practice.",
+   "prompt": "Compare the theories in this reading. Ask what evidence supports or weakens each interpretation.",
+   "note": {
+    "heading": "What psychology study asks of you",
+    "text": "Psychology study asks you to keep theory, evidence and case facts apart. An answer can sound right because it fits a theory while the evidence points elsewhere. Practise naming which part of your answer is theory and which is data. Ace can compare theories from a reading and ask what would weaken each one."
+   },
+   "question": {
+    "q": "How do I compare psychological theories?",
+    "a": "For each theory, write what it predicts and what evidence would count against it. Ask Ace to test your summary on a fictional case, then check the theories in your assigned readings."
+   },
+   "guide": "https://newaionline.com/ai-for-psychology-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Psychology school",
+   "slug": "ai-for-eppp",
+   "kind": "subject",
+   "title": "EPPP AI study tutor",
+   "focus": "psychology concept review",
+   "method": "Define each concept, identify discriminating evidence and compare with the assigned psychology source.",
+   "prompt": "Compare the concepts in this psychology lesson. Give me an original question that tests the distinction.",
+   "note": {
+    "heading": "Where EPPP review usually goes wrong",
+    "text": "Broad review invites recognition without recall: you may recognize a term and still be unable to explain or apply it. Practise defining each concept, then applying it to a short fictional case. Ask Ace to quiz you from your notes and give you a case that tests the line between two similar concepts."
+   },
+   "question": {
+    "q": "Is Ace connected to the EPPP?",
+    "a": "No. Ace writes original study practice from your material and has no exam-provider affiliation. Confirm content with your program’s resources."
+   },
+   "guide": "https://newaionline.com/ai-for-eppp?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Psychology school",
+   "slug": "ai-for-counseling-theories",
+   "kind": "subject",
+   "title": "Counseling theory AI tutor",
+   "focus": "theoretical comparison",
+   "method": "Keep the theoretical assumptions explicit and distinguish them from evidence about the fictional case.",
+   "prompt": "Compare two counseling theories from these notes. Ask how each would interpret a fictional course case.",
+   "note": {
+    "heading": "Where comparing theories usually goes wrong",
+    "text": "Comparisons go wrong when theories are reduced to slogans. For each, state what it says causes the problem, what change looks like and what the counselor does. Apply two theories to the same fictional case and compare the plans. Ask Ace to question your summary of each theory against your readings."
+   },
+   "question": {
+    "q": "How do I compare counseling theories?",
+    "a": "Use the same fictional case for each theory and compare the explanation and plan each produces. Ask Ace to check your summaries against your assigned readings."
+   },
+   "guide": "https://newaionline.com/ai-for-counseling-theories?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Accounting school",
+   "slug": "ai-for-accounting-school",
+   "kind": "field",
+   "title": "AI for accounting school",
+   "studyAreas": "CPA: FAR, AUD, REG and discipline sections",
+   "topics": "journal entries, audit reasoning and financial reporting",
+   "method": "Work from the transaction to the entry and then to the statements. Reconcile the numbers and check the applicable course rule.",
+   "prompt": "Quiz me on this adjusting-entry problem. Make me identify the accounts, direction and amount before showing the explanation.",
+   "note": {
+    "heading": "What accounting study asks of you",
+    "text": "Accounting study punishes small slips: the wrong account, a reversed direction or an amount that does not reconcile. Work from the transaction to the entry to the statements, every time, and make the totals balance. Ace can quiz you on an adjusting entry and make you name the accounts and direction before it shows the solution."
+   },
+   "question": {
+    "q": "How can AI help me practise journal entries?",
+    "a": "Ask Ace for a transaction, record the entry yourself and explain each account. Then ask it to check direction and amount. Confirm treatments against your course rules, since standards and exam scope change."
+   },
+   "guide": "https://newaionline.com/ai-for-accounting-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Accounting school",
+   "slug": "ai-for-cpa-exam",
+   "kind": "subject",
+   "title": "CPA exam AI study tutor",
+   "focus": "accounting exam practice",
+   "method": "Work from the transaction through the entry to the statements, then reconcile the totals.",
+   "prompt": "Create an original adjusting-entry exercise. Ask for the accounts, amounts and effect on the statements before giving feedback.",
+   "note": {
+    "heading": "Where CPA practice usually goes wrong",
+    "text": "Practice goes wrong when you learn rules without the reason behind them, so a changed fact pattern defeats you. For each topic, explain why the treatment applies. Ask Ace for original questions from your notes in your section and track misses by topic. Confirm rules against current standards, since they change."
+   },
+   "question": {
+    "q": "Does Ace use official CPA questions?",
+    "a": "No. Ace writes original practice and is not affiliated with the exam or its owners. Standards change, so verify treatments with current materials."
+   },
+   "guide": "https://newaionline.com/ai-for-cpa-exam?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Accounting school",
+   "slug": "ai-for-journal-entries",
+   "kind": "subject",
+   "title": "AI for accounting journal entries",
+   "focus": "debits, credits and adjustments",
+   "method": "Identify the economic event, classify the accounts and check that the entry balances.",
+   "prompt": "Quiz me on this accounting transaction. Make me explain why each account is debited or credited.",
+   "note": {
+    "heading": "Where journal entries usually go wrong",
+    "text": "Entries go wrong on direction and timing: a debit and credit swapped, or revenue and expenses recorded in the wrong period. Before writing an entry, say which accounts change, whether each increases or decreases and when. Ask Ace for a transaction, record the entry yourself and have it check each line."
+   },
+   "question": {
+    "q": "How do I remember debits and credits?",
+    "a": "Learn which side increases each account type, then practise until it is automatic. Ask Ace for transactions and check that every entry balances."
+   },
+   "guide": "https://newaionline.com/ai-for-journal-entries?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Architecture school",
+   "slug": "ai-for-architecture-school",
+   "kind": "field",
+   "title": "AI for architecture school",
+   "studyAreas": "ARE",
+   "topics": "design critique, building systems and project reasoning",
+   "method": "Explain how a design meets its brief, test constraints and compare alternatives. Verify technical requirements in assigned references.",
+   "prompt": "Challenge this design concept against the brief. Ask about circulation, constraints and the tradeoffs behind my choice.",
+   "note": {
+    "heading": "What architecture school study asks of you",
+    "text": "Architecture study combines design judgment with technical requirements. In critique you defend how a scheme meets the brief; in systems courses and exams you show that it works. Practise stating the constraint each choice answers. Ace can look at a concept on screen and question circulation, constraints and trade-offs before your review."
+   },
+   "question": {
+    "q": "Can AI critique my design?",
+    "a": "It can ask useful questions. Show the concept on screen with the brief, ask Ace to challenge one aspect at a time and decide which points to address. Verify technical requirements in your assigned references and codes."
+   },
+   "guide": "https://newaionline.com/ai-for-architecture-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Architecture school",
+   "slug": "ai-for-are-exam",
+   "kind": "subject",
+   "title": "ARE AI study tutor",
+   "focus": "architecture exam concepts",
+   "method": "List the constraints, explain the governing principle and check the relevant course reference.",
+   "prompt": "Ask an original question on this building-systems topic. Let me identify the constraints before choosing an answer.",
+   "note": {
+    "heading": "Where ARE practice usually goes wrong",
+    "text": "Exam prep goes wrong when design intuition stands in for the specific requirement a question tests. Read each question for the constraint it is checking. Ask Ace for original practice in your weakest division from your notes, and verify technical details against current codes and references."
+   },
+   "question": {
+    "q": "Is Ace affiliated with the ARE?",
+    "a": "No. Ace writes original practice from your material and is not affiliated with the exam provider. Confirm content and code editions with your study resources."
+   },
+   "guide": "https://newaionline.com/ai-for-are-exam?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Architecture school",
+   "slug": "ai-for-architecture-design-critique",
+   "kind": "subject",
+   "title": "AI for architecture design critique",
+   "focus": "design briefs and tradeoffs",
+   "method": "Tie each design choice to the brief and compare alternatives using explicit criteria.",
+   "prompt": "Challenge my design against this brief. Ask how circulation and the stated constraints support my concept.",
+   "note": {
+    "heading": "Where design critique prep usually goes wrong",
+    "text": "Critiques go wrong when you describe the design instead of defending it. Reviewers ask how a choice serves the brief and what you gave up. Prepare the two or three trade-offs you made and why. Ask Ace to look at your concept on screen and ask the hard questions a reviewer might."
+   },
+   "question": {
+    "q": "How do I prepare for a review?",
+    "a": "State the brief, your key move and the trade-offs. Ask Ace to challenge each one, rehearse your answers out loud and decide which critiques to address in the next iteration."
+   },
+   "guide": "https://newaionline.com/ai-for-architecture-design-critique?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Engineering school",
+   "slug": "ai-for-engineering-school",
+   "kind": "field",
+   "title": "AI for engineering school",
+   "studyAreas": "FE and PE",
+   "topics": "problem solving, systems and technical fundamentals",
+   "method": "Draw the system boundary, state assumptions and preserve units throughout. Check your result against limiting cases and course methods.",
+   "prompt": "Work through this engineering problem one decision at a time. Ask for assumptions, units and a reasonableness check.",
+   "note": {
+    "heading": "What engineering study asks of you",
+    "text": "Engineering problems fail most often on setup: the wrong system boundary, a missing assumption or units that drift. Draw the system, list assumptions and carry units through every line. Ace can work through a problem one decision at a time with you and ask for a reasonableness check before you accept a result."
+   },
+   "question": {
+    "q": "How do I check an engineering answer?",
+    "a": "Check units, test a limiting case and compare the magnitude with what you would expect. Ask Ace to question each assumption, then verify the method against your course notes and references."
+   },
+   "guide": "https://newaionline.com/ai-for-engineering-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Engineering school",
+   "slug": "ai-for-fe-exam",
+   "kind": "subject",
+   "title": "FE exam AI study tutor",
+   "focus": "engineering fundamentals",
+   "method": "Draw the system boundary, choose the governing relationship and carry the units through every step.",
+   "prompt": "Give me an original fundamentals problem. Require assumptions, units and a reasonableness check.",
+   "note": {
+    "heading": "Where FE practice usually goes wrong",
+    "text": "Broad fundamentals review goes wrong when time goes to familiar subjects. Use practice to find weak areas, then focus there. In each problem, write the governing equation and units before plugging in numbers. Ask Ace for original problems in your weak areas and have it check your setup before the arithmetic."
+   },
+   "question": {
+    "q": "Does Ace use official FE problems?",
+    "a": "No. Ace writes original practice and is not affiliated with the exam provider. Use the official reference handbook so you practise with the same material you will use."
+   },
+   "guide": "https://newaionline.com/ai-for-fe-exam?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Engineering school",
+   "slug": "ai-for-pe-exam",
+   "kind": "subject",
+   "title": "PE exam AI study tutor",
+   "focus": "engineering problem reasoning",
+   "method": "State assumptions and constraints first, then verify the calculated result against a limiting case.",
+   "prompt": "Use this engineering course problem to quiz me on the assumptions and constraints before we calculate.",
+   "note": {
+    "heading": "Where PE practice usually goes wrong",
+    "text": "Problems go wrong on assumptions that are never stated and on applying a method outside its limits. Write down each assumption and check it against the problem. Ask Ace to work through a problem from your discipline one decision at a time and to question any assumption you did not justify."
+   },
+   "question": {
+    "q": "Can AI help with PE problems?",
+    "a": "It can question your setup and assumptions, but verify methods and values against your discipline’s references and current codes. Do not rely on AI for real design work."
+   },
+   "guide": "https://newaionline.com/ai-for-pe-exam?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Divinity and seminary",
+   "slug": "ai-for-divinity-school",
+   "kind": "field",
+   "title": "AI for divinity and seminary",
+   "studyAreas": "ordination and comprehensive exams",
+   "topics": "theology, scripture and comparative interpretation",
+   "method": "Keep textual evidence and interpretation distinct. Compare traditions fairly and rehearse a source-supported argument.",
+   "prompt": "Compare the interpretations in these readings. Ask me to support each position with a passage from the source.",
+   "note": {
+    "heading": "What divinity and seminary study asks of you",
+    "text": "Seminary study asks you to support an interpretation from the text and to represent other traditions fairly. Keep the passage, the interpretation and the tradition distinct. Ace can compare readings from your assigned sources and ask you to support each position with a specific passage."
+   },
+   "question": {
+    "q": "Can AI explain different theological traditions?",
+    "a": "It can summarize and compare, but summaries can flatten real differences. Ask Ace to point to the passage behind each claim, and read the primary and assigned sources yourself."
+   },
+   "guide": "https://newaionline.com/ai-for-divinity-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Divinity and seminary",
+   "slug": "ai-for-theology",
+   "kind": "subject",
+   "title": "Theology AI study tutor",
+   "focus": "theological reading and argument",
+   "method": "Separate the author’s claim, supporting passage and your own interpretation.",
+   "prompt": "Compare the arguments in these assigned readings. Ask me to support each claim with a passage.",
+   "note": {
+    "heading": "Where theological argument usually goes wrong",
+    "text": "Arguments go wrong when a position is attributed to a tradition without the source that supports it, or when an opposing view is summarized unfairly. Cite the text for each claim and state the strongest form of the view you disagree with. Ask Ace to test your argument against your assigned readings."
+   },
+   "question": {
+    "q": "Can AI represent theological traditions fairly?",
+    "a": "Not always; summaries can flatten real differences. Ask Ace to point to sources for each claim and check them in your assigned readings."
+   },
+   "guide": "https://newaionline.com/ai-for-theology?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Divinity and seminary",
+   "slug": "ai-for-scripture-study",
+   "kind": "subject",
+   "title": "AI for scripture study",
+   "focus": "textual interpretation",
+   "method": "Read the passage in context, identify the interpretive assumptions and check the assigned commentary.",
+   "prompt": "Help me compare interpretations of this assigned passage. Keep the textual evidence distinct from commentary.",
+   "note": {
+    "heading": "Where scripture study usually goes wrong",
+    "text": "Interpretation goes wrong when a passage is read without its context: the surrounding text, the genre and how your tradition and others have read it. Read the passage in context before interpreting. Ask Ace to compare readings from your assigned sources and ask which words in the passage support each one."
+   },
+   "question": {
+    "q": "How should I use AI for scripture study?",
+    "a": "Use it to ask questions and compare readings, not as an authority. Read the passage in context and check interpretations in your assigned sources."
+   },
+   "guide": "https://newaionline.com/ai-for-scripture-study?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Post-baccalaureate study",
+   "slug": "ai-for-post-baccalaureate",
+   "kind": "field",
+   "title": "AI for post-baccalaureate study",
+   "studyAreas": "MCAT and DAT preparation",
+   "topics": "prerequisite sciences and scientific reasoning",
+   "method": "Connect prerequisite concepts to the passage rather than memorizing isolated facts. Review the reasoning behind each missed question.",
+   "prompt": "Use this biology lesson for a passage-based practice question. Let me explain how the evidence supports my choice.",
+   "note": {
+    "heading": "What post-baccalaureate study asks of you",
+    "text": "Post-bacc study often packs prerequisite sciences into a short time, then tests them through passages rather than recall. Connect each concept to how it appears in a passage or experiment. Ace can turn a biology or chemistry lesson into a passage-style question and ask you to explain how the evidence supports your choice."
+   },
+   "question": {
+    "q": "How do I prepare for passage-based questions?",
+    "a": "Practise reading a short passage, stating its main finding and predicting the answer before looking at the options. Ask Ace for original practice passages from your lessons and review the reasoning on every miss."
+   },
+   "guide": "https://newaionline.com/ai-for-post-baccalaureate?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Post-baccalaureate study",
+   "slug": "ai-for-mcat",
+   "kind": "subject",
+   "title": "MCAT AI study tutor",
+   "focus": "passage-based science reasoning",
+   "method": "Connect prerequisite concepts to the passage and explain why competing interpretations fit less well.",
+   "prompt": "Give me an original passage-style exercise from this biology lesson. Ask which evidence supports my answer.",
+   "note": {
+    "heading": "Where MCAT practice usually goes wrong",
+    "text": "Passage questions go wrong when outside knowledge overrides what the passage says, or when a figure is read too quickly. Summarize the passage’s main finding and the figure’s axes before answering. Ask Ace for original passages from your science lessons and have it ask which line or data point supports your choice."
+   },
+   "question": {
+    "q": "Does Ace provide official MCAT passages?",
+    "a": "No. Ace writes original practice and is not affiliated with the AAMC. Use official materials to calibrate format and difficulty."
+   },
+   "guide": "https://newaionline.com/ai-for-mcat?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Post-baccalaureate study",
+   "slug": "ai-for-dat",
+   "kind": "subject",
+   "title": "DAT AI study tutor",
+   "focus": "pre-dental science review",
+   "method": "Build recall from the assigned science material and check the distinction with a new example.",
+   "prompt": "Quiz me on the scientific distinctions in these pre-dental notes. Ask for the reasoning behind each answer.",
+   "note": {
+    "heading": "Where DAT practice usually goes wrong",
+    "text": "Review goes wrong when sciences are studied only as facts, while the test rewards quick, accurate application. Mix short timed sets with careful review of misses. Ask Ace for original questions from your biology and chemistry notes, and have it ask why each wrong option is wrong."
+   },
+   "question": {
+    "q": "Does Ace have official DAT questions?",
+    "a": "No. Ace writes original practice and is not affiliated with the test provider. Use official materials to understand the format."
+   },
+   "guide": "https://newaionline.com/ai-for-dat?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Trades and technical school",
+   "slug": "ai-for-trade-school",
+   "kind": "field",
+   "title": "AI for trades and technical school",
+   "studyAreas": "licensing and technical exams",
+   "topics": "trade theory, diagrams and applied calculations",
+   "method": "Use course diagrams to understand principles and vocabulary. Follow instructor guidance and approved procedures for practical work.",
+   "prompt": "Quiz me on this course diagram. Ask me to identify components, explain the principle and check the calculation units.",
+   "note": {
+    "heading": "What trade school study asks of you",
+    "text": "Trade programs combine theory, diagrams and applied calculations with hands-on work that must follow approved procedures. Use AI for the classroom side: vocabulary, reading diagrams and checking calculation steps. Ace can quiz you on a course diagram and ask you to explain the principle behind each component."
+   },
+   "question": {
+    "q": "Can AI help with hands-on trade work?",
+    "a": "Use it for study, not for live work. Ace can explain a diagram or check a calculation from your course, but follow your instructor, the manufacturer’s instructions and the applicable code for any practical task."
+   },
+   "guide": "https://newaionline.com/ai-for-trade-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Trades and technical school",
+   "slug": "ai-for-hvac-school",
+   "kind": "subject",
+   "title": "HVAC school AI study tutor",
+   "focus": "trade theory and diagrams",
+   "method": "Use course diagrams to learn principles and terminology; follow instructor-approved procedures for practical work.",
+   "prompt": "Quiz me on the components in this HVAC course diagram. Ask me to explain the principle and check calculation units.",
+   "note": {
+    "heading": "Where HVAC study usually goes wrong",
+    "text": "Study goes wrong when diagrams are memorized instead of understood. For each component, explain what it does in the cycle and what you would expect if it failed. Ask Ace to quiz you on a course diagram on screen. For any practical work, follow your instructor, the manufacturer and the applicable code."
+   },
+   "question": {
+    "q": "Can AI help me troubleshoot a real system?",
+    "a": "Use it for study only. Ace can explain a course diagram or concept, but real equipment work must follow your instructor, the manufacturer’s instructions and the applicable code."
+   },
+   "guide": "https://newaionline.com/ai-for-hvac-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Trades and technical school",
+   "slug": "ai-for-electrical-trade-school",
+   "kind": "subject",
+   "title": "Electrical trade school AI tutor",
+   "focus": "circuits and technical calculations",
+   "method": "Identify components and the governing relationship, then verify units and the result using course methods.",
+   "prompt": "Walk through this course circuit diagram. Ask for the relationship, assumptions and units before the calculation.",
+   "note": {
+    "heading": "Where electrical trade study usually goes wrong",
+    "text": "Calculations go wrong on units and on applying a formula to the wrong part of a circuit. Sketch the circuit, label known values with units and say which relationship you are using before calculating. Ask Ace to check each step of your course problems. For practical work, follow your instructor and the applicable code."
+   },
+   "question": {
+    "q": "Can AI check my circuit calculations?",
+    "a": "It can review your steps on course problems. Verify against your course methods, and never rely on AI for live electrical work; follow your instructor and the applicable code."
+   },
+   "guide": "https://newaionline.com/ai-for-electrical-trade-school?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Medical residency",
+   "slug": "ai-for-medical-residency",
+   "kind": "field",
+   "title": "AI for medical residency",
+   "studyAreas": "USMLE Step 3, in-training and board study",
+   "topics": "specialty learning, clinical reasoning and rounds practice",
+   "method": "Practise a clear presentation, prioritize discriminating evidence and review the teaching source. Keep real patient information out of public study prompts.",
+   "prompt": "Use this de-identified teaching case to rehearse a concise presentation. Ask me to justify the differential and identify missing information.",
+   "note": {
+    "heading": "What residency study asks of you",
+    "text": "Residency study is squeezed between shifts, so short, focused practice beats long sessions. Board-style questions and rounds both reward a tight presentation and a prioritized differential. Ace can rehearse a de-identified teaching case with you and ask you to justify your plan. Keep real patient information out of study prompts."
+   },
+   "question": {
+    "q": "How can I study in short gaps between shifts?",
+    "a": "Pick one teaching topic, ask Ace for three focused questions and answer out loud. Note what you missed and review it with your program’s references later. Use only de-identified material."
+   },
+   "guide": "https://newaionline.com/ai-for-medical-residency?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Medical residency",
+   "slug": "ai-for-medical-board-study",
+   "kind": "subject",
+   "title": "AI for medical board study",
+   "focus": "specialty coursework review",
+   "method": "Focus on the discriminating evidence and review the teaching rationale with approved specialty sources.",
+   "prompt": "Use this de-identified teaching topic to ask an original board-style question. Let me justify the answer first.",
+   "note": {
+    "heading": "Where board study usually goes wrong",
+    "text": "Board study goes wrong when time goes to comfortable topics. Use your in-training results or question performance to choose topics, then review the reasoning behind every miss, not just the answer. Ask Ace for short sets of original questions from your notes on those topics, and confirm management with current references."
+   },
+   "question": {
+    "q": "Is Ace affiliated with any medical board?",
+    "a": "No. Ace writes original practice from your material and has no affiliation with any board or question bank. Check management against current, approved references."
+   },
+   "guide": "https://newaionline.com/ai-for-medical-board-study?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "Medical residency",
+   "slug": "ai-for-clinical-case-presentation",
+   "kind": "subject",
+   "title": "AI for clinical case presentations",
+   "focus": "educational rounds practice",
+   "method": "Organize the teaching presentation around the main question, important evidence and unresolved gaps.",
+   "prompt": "Help me rehearse this de-identified teaching case in one minute. Ask what relevant information I left out.",
+   "note": {
+    "heading": "Where case presentations usually go wrong",
+    "text": "Presentations go wrong when they lose the thread: details out of order, findings without interpretation, or an assessment that does not lead to the plan. Use a consistent structure and end with a clear assessment and plan. Practise out loud with a de-identified teaching case and ask Ace what a listener would find unclear."
+   },
+   "question": {
+    "q": "How long should a case presentation be?",
+    "a": "Follow your team’s expectations; many prefer brief. Practise a short version first, then ask Ace which details could be cut without losing the assessment."
+   },
+   "guide": "https://newaionline.com/ai-for-clinical-case-presentation?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "College study",
+   "slug": "ai-for-college-students",
+   "kind": "field",
+   "title": "AI for college study",
+   "studyAreas": "course exams",
+   "topics": "lecture notes, coursework and active recall",
+   "method": "Start with assigned course material, practise explaining it without looking and check your answer against the source.",
+   "prompt": "Use these course notes to quiz me one question at a time. Ask me to explain the idea before giving feedback.",
+   "note": {
+    "heading": "What college study asks of you",
+    "text": "Most college courses reward active recall over rereading: closing the notes and explaining an idea in your own words. Spaced review then keeps it. Ace can turn a lecture into notes and flashcards and quiz you one question at a time. Use it to practise, and follow your course’s rules on AI for graded work."
+   },
+   "question": {
+    "q": "Is it allowed to use AI for college study?",
+    "a": "Policies vary by course and instructor. Practising with your own notes is usually different from submitting AI work as your own. Check your syllabus and ask your instructor when you are unsure."
+   },
+   "guide": "https://newaionline.com/ai-for-college-students?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "College study",
+   "slug": "ai-for-college-lecture-notes",
+   "kind": "subject",
+   "title": "AI for college lecture notes",
+   "focus": "course notes and active recall",
+   "method": "Keep the questions tied to the notes and turn missed concepts into a short review list.",
+   "prompt": "Turn these lecture notes into five questions. Wait for my answer before showing the explanation.",
+   "note": {
+    "heading": "Where lecture notes usually go wrong",
+    "text": "Notes go wrong when they copy slides word for word and are never used again. Better notes capture the main ideas in your words and become questions you can answer later. After a lecture, ask Ace to turn your notes into recall questions and quiz you a day later, then again a few days after that."
+   },
+   "question": {
+    "q": "Can Ace take notes in my lectures?",
+    "a": "Ace can make notes and flashcards from a lecture it hears through your computer’s microphone. Follow your school’s and instructor’s rules on recording, and review the notes against the lecture slides."
+   },
+   "guide": "https://newaionline.com/ai-for-college-lecture-notes?utm_source=github&utm_medium=ai-study-prompts"
+  },
+  {
+   "field": "College study",
+   "slug": "ai-for-college-exam-study",
+   "kind": "subject",
+   "title": "AI for college exam study",
+   "focus": "course-based exam preparation",
+   "method": "Prioritize syllabus topics, practise retrieval and verify explanations against the assigned material.",
+   "prompt": "Use my syllabus topics to quiz me one question at a time. Ask me to explain the idea in my own words.",
+   "note": {
+    "heading": "Where exam study usually goes wrong",
+    "text": "Rereading feels productive but tests poorly. Practise retrieving the material instead: answer questions without notes, then check. Spread sessions over days rather than one long night. Ask Ace to quiz you from your course notes and mix topics, so you practise choosing the right method as well as using it."
+   },
+   "question": {
+    "q": "How far ahead should I start studying for an exam?",
+    "a": "Earlier and spread out beats one long session. Start with short daily quizzes from your notes and use the last days to review what you miss most often."
+   },
+   "guide": "https://newaionline.com/ai-for-college-exam-study?utm_source=github&utm_medium=ai-study-prompts"
+  }
+ ]
+}

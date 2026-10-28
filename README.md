@@ -6,6 +6,10 @@ says. They are written for students who want AI to quiz them, not to do the work
 
 The method in one line: **answer first, let the AI challenge you, then check against your source.**
 
+## Start with one complete example
+
+[Try the first-session walkthrough](guides/first-session.md): fictional notes, a copyable quiz prompt, a worked answer and a source check. No installation required.
+
 ## Fields
 
 | Field | Study areas | Subject guides |

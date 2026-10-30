@@ -65,9 +65,9 @@ After you have tried the calculation, open the 27-second illustrated walkthrough
 <details>
 <summary>Show the walkthrough and download</summary>
 
-[![A study exercise asking for speed in metres per second](media/check-the-units-cover.png)](media/check-the-units.mp4)
+[![A study exercise asking for speed in metres per second](media/check-the-units-cover.png)](https://raw.githubusercontent.com/mthburnsbarber-web/ai-study-prompts/main/guides/media/check-the-units.mp4)
 
-[Watch or download the MP4](media/check-the-units.mp4). If the repository preview does not play it, use the file's Download control.
+[Download the 27-second MP4 (5.3 MB)](https://raw.githubusercontent.com/mthburnsbarber-web/ai-study-prompts/main/guides/media/check-the-units.mp4). The file downloads directly; open it in your video player.
 
 </details>
 

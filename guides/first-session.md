@@ -58,6 +58,19 @@ The time is halved, so the average speed doubles. Three minutes is 180 seconds; 
 
 </details>
 
+## Visual walkthrough
+
+After you have tried the calculation, open the 27-second illustrated walkthrough. It shows the unit conversion and compares the two answers from this exercise. The video is silent; the explanation is on screen. It illustrates these course notes and is not a recording of the Ace application.
+
+<details>
+<summary>Show the walkthrough and download</summary>
+
+[![A study exercise asking for speed in metres per second](media/check-the-units-cover.png)](media/check-the-units.mp4)
+
+[Watch or download the MP4](media/check-the-units.mp4). If the repository preview does not play it, use the file's Download control.
+
+</details>
+
 ## 4. Switch to your own subject
 
 Open the [field guide index](../README.md#fields), then choose one short section of material you are allowed to use. Replace the fictional notes with that section and use the prompt from your field guide.

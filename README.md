@@ -10,6 +10,8 @@ The method in one line: **answer first, let the AI challenge you, then check aga
 
 [Try the first-session walkthrough](guides/first-session.md): fictional notes, a copyable quiz prompt, a worked answer and a source check. No installation required.
 
+[Watch the 25-second Ace notes and flashcards demonstration](guides/ace-notes-review.md). The recording shows the product interface; the study exercise works in any assistant.
+
 ## Fields
 
 | Field | Study areas | Subject guides |
